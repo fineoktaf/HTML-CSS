@@ -1,0 +1,56 @@
+HTML
+1. Heading dan teks tubuh
+<P> ; paragraf
+<h1> heading
+
+2. paragraf, line break, ruler
+<br/> break rule atau enter
+<hr/> ruler atau penggaris
+
+3. insert gambar
+<img src="link"/>
+
+4. insert tautan/link
+<a href="https://www.google.com">Google</a>
+
+5. tambah tombol/ aksi/ button
+<button> More information...</button>
+
+6. membuat daftar (bullet, list, numbering)
+<ul>
+    <li></li> -> ini unorderlist atau bullet
+    <li></li>
+    <ol></ol> -> kalo ini list yg number
+</ul>
+
+
+CSS
+
+1. CSS inline VS file terpisah
+2. Mengenal selektor, atribut, nilai
+3. CSS untuk gambar latarbelakang halaman
+4. Format posisi (margin, padding, floating)
+5. format teks (font,warna, gaya)
+6. perilaku hyperlink
+
+untuk menambahkan css di html, maka susunannya akan seperti ini;
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<body>
+isi
+</body>
+</style>
+</head>
+</html>
+
+DOM > Dokumen objek model (html)
+fungsi2 Java script dalam DOM
+- getElementById ()
+- getElementByName ()
+- getElementByClassName ()
+- getElementByTagName ()
+- getElementByTagNameNS ()
+- querySelector ()
+- quuerySelectorALL ()
